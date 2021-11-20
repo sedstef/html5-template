@@ -1,0 +1,39 @@
+
+html {
+    /* border-box: calculate the complete element */
+    box-sizing: border-box;/* csslint allow: box-sizing */
+}
+
+* { /* csslint allow: universal-selector */
+    box-sizing: inherit;/* csslint allow: box-sizing */
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background: #e2e2e2;
+}
+
+main, 
+aside {
+    margin: 0;
+    padding: 15px;
+}
+
+/*
+ * desktop view
+ */
+@media screen and (min-width: 768px) {
+
+    /* elements aside*/
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main {
+        max-width: 70%;
+    }
+}
+/* end desktop view */

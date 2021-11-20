@@ -1,0 +1,12 @@
+{
+    "name": "html5-template",
+    "version": "1.0.0",
+    "author": "Stefan Sedelmaier",
+    "contributors": [],
+    "devDependencies": {
+        "grunt": "^1.4.1",
+        "grunt-contrib-csslint": "^2.0.0",
+        "grunt-html": "^15.1.0",
+        "grunt-run": "^0.8.1"
+    }
+}
