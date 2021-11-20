@@ -26,6 +26,9 @@ dist/
 # JetBrains IDE
 .idea/
 
+# NetBeans IDE
+private/
+
 # Unit test reports
 TEST*.xml
 
@@ -47,4 +50,3 @@ Thumbs.db
 *.flv
 *.mov
 *.wmv
-
