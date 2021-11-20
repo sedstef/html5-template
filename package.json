@@ -1,0 +1,16 @@
+{
+    "name": "html5-template",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Stefan Sedelmaier",
+    "contributors": [],
+    "devDependencies": {
+        "grunt": "^1.4.1"
+    }
+}
