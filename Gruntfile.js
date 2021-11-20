@@ -25,5 +25,5 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['htmllint']);
 
     grunt.registerTask('build', ['htmllint']);
-
+    
 };
