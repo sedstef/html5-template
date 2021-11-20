@@ -1,10 +1,11 @@
 
 html {
     /* border-box: calculate the complete element */
-    box-sizing: border-box;
+    box-sizing: border-box;/* csslint allow: box-sizing */
 }
-* {
-    box-sizing: inherit;
+
+* { /* csslint allow: universal-selector */
+    box-sizing: inherit;/* csslint allow: box-sizing */
 }
 
 body {
@@ -28,7 +29,7 @@ aside {
     /* elements aside*/
     body {
         display: flex;
-        flex: row;
+        flex-direction: row;
     }
 
     main {
