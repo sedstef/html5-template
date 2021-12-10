@@ -27,11 +27,7 @@ module.exports = function (grunt) {
         run: {
             //see https://www.npmjs.com/package/grunt-run
             httpd: {
-                cmd: './start-httpd.sh',
-//                args: [
-//                    'arg1',
-//                    'arg2'
-//                ]
+                exec: 'start-httpd.cmd'
             }
         }
     });
@@ -43,6 +39,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['htmllint', 'csslint']);
 
-    grunt.registerTask('build', ['htmllint']);
+    grunt.registerTask('build', ['htmllint', 'csslint']);
 
 };
